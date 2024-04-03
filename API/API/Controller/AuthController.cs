@@ -3,6 +3,7 @@ using API.Services.loginServices;
 using API.Services.registerServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace API.Controller
 {
@@ -35,7 +36,7 @@ namespace API.Controller
             if (await _loginService.Login(user))
             {
                 var tokenString = _loginService.GenerateTokenString(user);
-                return Ok(tokenString);
+                return Ok(new { token = tokenString, success = user.RememberMe });
             }
             return BadRequest();
         }

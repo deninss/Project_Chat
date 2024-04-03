@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ABHD0E2mk6G8+iQoUdmToSRlxAFkw2NhdK+YZ86zpy/uHIw7SVdMtzt1HaSXjhMrpy8cazcuj0ZklBgvAq/HaQ==",
+  "dgSpecHash": "ZKiPdykaL6RfJgALW4BcyJ4HN4/pL3kbbWj1mHNDkj7zFkS0t2tGRMiZAHlqXDcVyzJM76Tq0wl8IfOXaTLLYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\loono\\OneDrive\\Рабочий стол\\Application\\Api-Application\\API\\API\\API.csproj",
+  "projectFilePath": "C:\\Application\\API\\API\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\loono\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\loono\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

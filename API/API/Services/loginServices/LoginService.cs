@@ -32,7 +32,7 @@ namespace API.Services.loginServices
             }
 
             return false;
-        }
+        }   
         public string GenerateTokenString(LoginUser user)
         {
             var claims = new List<Claim>

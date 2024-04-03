@@ -5171,11 +5171,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\loono\\OneDrive\\Рабочий стол\\Application\\Api-Application\\API\\API\\API.csproj",
+      "projectUniqueName": "C:\\Application\\API\\API\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\loono\\OneDrive\\Рабочий стол\\Application\\Api-Application\\API\\API\\API.csproj",
+      "projectPath": "C:\\Application\\API\\API\\API\\API.csproj",
       "packagesPath": "C:\\Users\\loono\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\loono\\OneDrive\\Рабочий стол\\Application\\Api-Application\\API\\API\\obj\\",
+      "outputPath": "C:\\Application\\API\\API\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
