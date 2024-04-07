@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Application\\MAUI\\Chats\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\pages\\main\\listchat\\personchats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\pages\\main\\listchat\\personchats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\pages\\main\\listchat\\groupchats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\pages\\main\\listchat\\groupchats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonChats.xaml",
+              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Main\\ListChat\\PersonChats.xaml",
+              "RelativeDocumentMoniker": "Chats\\Pages\\Main\\ListChat\\PersonChats.xaml",
+              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Main\\ListChat\\PersonChats.xaml",
+              "RelativeToolTip": "Chats\\Pages\\Main\\ListChat\\PersonChats.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAywAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-07T12:00:46.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupChats.xaml",
+              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Main\\ListChat\\GroupChats.xaml",
+              "RelativeDocumentMoniker": "Chats\\Pages\\Main\\ListChat\\GroupChats.xaml",
+              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Main\\ListChat\\GroupChats.xaml",
+              "RelativeToolTip": "Chats\\Pages\\Main\\ListChat\\GroupChats.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-07T12:37:06.592Z",
+              "EditorCaption": ""
             }
           ]
         }

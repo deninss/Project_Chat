@@ -311,3 +311,7 @@ C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-ios\iossimulator-x64\XamlC.stam
 C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-ios\iossimulator-x64\Chats.csproj.Up2Date
 C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-ios\iossimulator-x64\Chats.genruntimeconfig.cache
 C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-ios\iossimulator-x64\ref\Chats.dll
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-ios\iossimulator-x64\Chats.sourcelink.json
+C:\Application\MAUI\Chats\Chats\bin\Debug\net8.0-ios\iossimulator-x64\Syncfusion.Licensing.dll
+C:\Application\MAUI\Chats\Chats\bin\Debug\net8.0-ios\iossimulator-x64\Syncfusion.Maui.Core.dll
+C:\Application\MAUI\Chats\Chats\bin\Debug\net8.0-ios\iossimulator-x64\Syncfusion.Maui.TabView.dll

@@ -1,4 +1,5 @@
 ﻿using Chats.Pages.Auth;
+using Chats.Pages.Main;
 
 namespace Chats
 {
@@ -8,7 +9,7 @@ namespace Chats
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(Login), typeof(Login));
-            Routing.RegisterRoute(nameof(Register), typeof(Register));
+            Routing.RegisterRoute(nameof(Register), typeof(Register)); 
         }
     }
 }

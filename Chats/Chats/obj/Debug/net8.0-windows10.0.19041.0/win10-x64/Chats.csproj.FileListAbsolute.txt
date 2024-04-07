@@ -176,3 +176,7 @@ C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\q
 C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Application\MAUI\Chats\Chats\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Chats.sourcelink.json
+C:\Application\MAUI\Chats\Chats\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Syncfusion.Licensing.dll
+C:\Application\MAUI\Chats\Chats\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Core.dll
+C:\Application\MAUI\Chats\Chats\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.TabView.dll

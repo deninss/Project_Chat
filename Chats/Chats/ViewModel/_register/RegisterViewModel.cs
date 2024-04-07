@@ -108,8 +108,8 @@ namespace Chats.ViewModel
 
             if (registerSuccess)
             { 
-                //возвращаемся на страницу назад, к странице Login
-                await Shell.Current.Navigation.PopAsync();
+                //возвращаемся на страницу назад, к странице Login 
+                await Shell.Current.GoToAsync($"//{nameof(Login)}");
             }
             else await Application.Current.MainPage.DisplayAlert("Ошибка", "Неверный логин или пароль", "OK");
         }

@@ -1,4 +1,6 @@
-﻿ 
+﻿
+using Chats.Pages.Main;
+using Chats.Pages.Main.ListChats;
 using Chats.Services;
 using Chats.ViewModel._login;
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -62,8 +64,10 @@ namespace Chats.ViewModel
             if (loginSuccess)
             {
                 // Переход на следующую страницу или выполнение других действий после успешного входа
-                // Например, переход на главную страницу приложения
-                await Shell.Current.Navigation.PushAsync(new MainPage());
+                // Например, переход на главную страницу приложения 
+                //await Shell.Current.Navigation.PushAsync(new MainPage());
+               
+                await Shell.Current.GoToAsync($"//{nameof(PersonChats)}");
             }
             else  await Application.Current.MainPage.DisplayAlert("Ошибка", "Неверный логин или пароль", "OK");
         }

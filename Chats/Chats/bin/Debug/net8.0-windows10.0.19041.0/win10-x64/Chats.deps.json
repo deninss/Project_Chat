@@ -13,6 +13,7 @@
           "Microsoft.Extensions.Logging.Debug": "8.0.0",
           "Microsoft.Maui.Controls": "8.0.7",
           "Microsoft.Maui.Controls.Compatibility": "8.0.7",
+          "Syncfusion.Maui.TabView": "25.1.38",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.31"
         },
         "runtime": {
@@ -445,6 +446,36 @@
             "fileVersion": "1.3.0.0"
           }
         }
+      },
+      "Syncfusion.Licensing/25.1.38": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "25.1.38.0",
+            "fileVersion": "25.1.38.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.38": {
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.38"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "assemblyVersion": "25.1.38.0",
+            "fileVersion": "25.1.38.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/25.1.38": {
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.38"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "assemblyVersion": "25.1.38.0",
+            "fileVersion": "25.1.38.0"
+          }
+        }
       }
     }
   },
@@ -619,6 +650,27 @@
       "sha512": "sha512-cCw26h8Uh8IjDMOUzHaR7/IKxEVJxuqEOgBlmLj0Pu1wDezZb9J0Wz53Vop10FQUOZaTfnwDcHavyPTxgkwbKQ==",
       "path": "microsoft.windowsappsdk/1.3.230724000",
       "hashPath": "microsoft.windowsappsdk.1.3.230724000.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/25.1.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zHOWLyRybkFd/tlF0AUicUM3so0JW6k6Ujc3q2M0mncCCtIxVYeYzDjMCmNZv2XAXDybn0q9Pnt9t6ibWJ7kyQ==",
+      "path": "syncfusion.licensing/25.1.38",
+      "hashPath": "syncfusion.licensing.25.1.38.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Core/25.1.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0CHXIfS3pUCjrbgnoKIpNA0x/6Kzc1yNPHujtRRf+Te1AuJB5gblQ1waEuZSyW8AQos5MouBel77BAIg1DD8g==",
+      "path": "syncfusion.maui.core/25.1.38",
+      "hashPath": "syncfusion.maui.core.25.1.38.nupkg.sha512"
+    },
+    "Syncfusion.Maui.TabView/25.1.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P6e4+Ksmk21nr2xL3nMT8ZYi+IyTQd7LBnjx1LcC0cX6t0Y0CSwd527gk+UdX8qdVXVZPfPNEi8J985KMidcrg==",
+      "path": "syncfusion.maui.tabview/25.1.38",
+      "hashPath": "syncfusion.maui.tabview.25.1.38.nupkg.sha512"
     }
   }
 }
