@@ -41,6 +41,8 @@ namespace API.Services.registerServices
             users.Surname = user.Surname;
             users.Patronymic = user.Patronymic;
             users.Email = user.Email;
+            users.EmailConfirmed = true;
+
             var result = await _userManager.CreateAsync(users, user.Password);
 
             if (result.Succeeded)

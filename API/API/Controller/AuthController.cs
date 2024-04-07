@@ -25,7 +25,7 @@ namespace API.Controller
         {
             if (await _registerService.RegisterUser(user))
             {
-                return Ok("Successfully done");
+                return Ok(true);
             } 
             return BadRequest("Something went wrong");
         }
@@ -36,7 +36,7 @@ namespace API.Controller
             if (await _loginService.Login(user))
             {
                 var tokenString = _loginService.GenerateTokenString(user);
-                return Ok(new { token = tokenString, success = user.RememberMe });
+                return Ok(new { token = tokenString, success = true });
             }
             return BadRequest();
         }

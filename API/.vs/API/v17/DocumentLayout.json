@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Application\\API\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\services\\loginservices\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\services\\loginservices\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\services\\registerservices\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\services\\registerservices\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\model\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\model\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\services\\registerservices\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\services\\registerservices\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Application\\API\\API\\API\\Controller\\AuthController.cs",
+              "RelativeToolTip": "API\\Controller\\AuthController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T16:47:16.057Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterUser.cs",
+              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Model\\RegisterUser.cs",
+              "RelativeDocumentMoniker": "API\\Model\\RegisterUser.cs",
+              "ToolTip": "C:\\Application\\API\\API\\API\\Model\\RegisterUser.cs",
+              "RelativeToolTip": "API\\Model\\RegisterUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T08:44:31.169Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRegisterService.cs",
+              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Services\\registerServices\\IRegisterService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\registerServices\\IRegisterService.cs",
+              "ToolTip": "C:\\Application\\API\\API\\API\\Services\\registerServices\\IRegisterService.cs",
+              "RelativeToolTip": "API\\Services\\registerServices\\IRegisterService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T08:44:33.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterService.cs",
+              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Services\\registerServices\\RegisterService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\registerServices\\RegisterService.cs",
+              "ToolTip": "C:\\Application\\API\\API\\API\\Services\\registerServices\\RegisterService.cs",
+              "RelativeToolTip": "API\\Services\\registerServices\\RegisterService.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAxwEkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T08:37:20.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Services\\loginServices\\LoginService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\loginServices\\LoginService.cs",
+              "ToolTip": "C:\\Application\\API\\API\\API\\Services\\loginServices\\LoginService.cs",
+              "RelativeToolTip": "API\\Services\\loginServices\\LoginService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T16:47:16.054Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
