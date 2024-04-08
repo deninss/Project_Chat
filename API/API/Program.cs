@@ -1,6 +1,8 @@
 using API.Context;
+using API.HubController;
 using API.Services.loginServices;
 using API.Services.registerServices;
+using API.Services.searchServices;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
@@ -14,6 +16,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddSignalR();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -47,6 +50,7 @@ builder.Services.AddTransient<IdentityUser, _IdentityUsers>();
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddTransient<IRegisterService, RegisterService>();
 builder.Services.AddTransient<ILoginService, LoginService>();
+builder.Services.AddSingleton<ISearchService, SearchService>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -65,5 +69,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+ 
+app.UseRouting();
 
+app.MapHub<hubController>("/hubController");
 app.Run();

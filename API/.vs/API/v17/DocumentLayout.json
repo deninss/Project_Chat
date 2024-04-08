@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Application\\API\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\services\\loginservices\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\services\\loginservices\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\services\\searchservices\\searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\services\\searchservices\\searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\services\\searchservices\\isearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\services\\searchservices\\isearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\hubcontroller\\hubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\hubcontroller\\hubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\services\\registerservices\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\services\\registerservices\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\model\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\model\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\services\\registerservices\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\services\\registerservices\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,74 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Controller\\AuthController.cs",
-              "RelativeDocumentMoniker": "API\\Controller\\AuthController.cs",
-              "ToolTip": "C:\\Application\\API\\API\\API\\Controller\\AuthController.cs",
-              "RelativeToolTip": "API\\Controller\\AuthController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAmwBgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T16:47:16.057Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterUser.cs",
-              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Model\\RegisterUser.cs",
-              "RelativeDocumentMoniker": "API\\Model\\RegisterUser.cs",
-              "ToolTip": "C:\\Application\\API\\API\\API\\Model\\RegisterUser.cs",
-              "RelativeToolTip": "API\\Model\\RegisterUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T08:44:31.169Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRegisterService.cs",
-              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Services\\registerServices\\IRegisterService.cs",
-              "RelativeDocumentMoniker": "API\\Services\\registerServices\\IRegisterService.cs",
-              "ToolTip": "C:\\Application\\API\\API\\API\\Services\\registerServices\\IRegisterService.cs",
-              "RelativeToolTip": "API\\Services\\registerServices\\IRegisterService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Application\\API\\API\\API\\Controller\\AuthController.cs",
+              "RelativeToolTip": "API\\Controller\\AuthController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAiwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T08:44:33.759Z"
+              "WhenOpened": "2024-04-08T17:22:14.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterService.cs",
-              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Services\\registerServices\\RegisterService.cs",
-              "RelativeDocumentMoniker": "API\\Services\\registerServices\\RegisterService.cs",
-              "ToolTip": "C:\\Application\\API\\API\\API\\Services\\registerServices\\RegisterService.cs",
-              "RelativeToolTip": "API\\Services\\registerServices\\RegisterService.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAxwEkAAAAIAAAA",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Application\\API\\API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T08:37:20.177Z"
+              "WhenOpened": "2024-04-08T17:22:51.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ISearchService.cs",
+              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Services\\searchServices\\ISearchService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\searchServices\\ISearchService.cs",
+              "ToolTip": "C:\\Application\\API\\API\\API\\Services\\searchServices\\ISearchService.cs",
+              "RelativeToolTip": "API\\Services\\searchServices\\ISearchService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T16:38:46.978Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Services\\loginServices\\LoginService.cs",
-              "RelativeDocumentMoniker": "API\\Services\\loginServices\\LoginService.cs",
-              "ToolTip": "C:\\Application\\API\\API\\API\\Services\\loginServices\\LoginService.cs",
-              "RelativeToolTip": "API\\Services\\loginServices\\LoginService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBMAAAAdAAAA",
+              "Title": "SearchService.cs",
+              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Services\\searchServices\\SearchService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\searchServices\\SearchService.cs",
+              "ToolTip": "C:\\Application\\API\\API\\API\\Services\\searchServices\\SearchService.cs",
+              "RelativeToolTip": "API\\Services\\searchServices\\SearchService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T16:47:16.054Z",
+              "WhenOpened": "2024-04-08T16:32:10.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "hubController.cs",
+              "DocumentMoniker": "C:\\Application\\API\\API\\API\\HubController\\hubController.cs",
+              "RelativeDocumentMoniker": "API\\HubController\\hubController.cs",
+              "ToolTip": "C:\\Application\\API\\API\\API\\HubController\\hubController.cs",
+              "RelativeToolTip": "API\\HubController\\hubController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T16:30:36.676Z",
               "EditorCaption": ""
             }
           ]
