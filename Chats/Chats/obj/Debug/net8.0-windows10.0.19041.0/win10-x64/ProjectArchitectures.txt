@@ -1,1 +1,0 @@
-C:\Application\MAUI\Chats\Chats\Chats.csproj;x64

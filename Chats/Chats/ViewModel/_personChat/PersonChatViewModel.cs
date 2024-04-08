@@ -1,34 +1,41 @@
 ﻿using Chats.Pages.Main.ListChats;
-using System;
-using System.Collections.Generic;
+using Chats.Services;
 using System.ComponentModel;
-using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace Chats.ViewModel._personChat
 {
     public class PersonChatViewModel : INotifyPropertyChanged
     {
-        public ICommand GrouChatCommand { get; private set; }
+        private ApiSService _apiService;
+        public event PropertyChangedEventHandler PropertyChanged;
+        private string _search;
+        public ICommand GroupChatCommand { get; private set; }
+        
+        public string Search
+        {
+            get { return _search; }
+            set
+            {
+                if (_search != value)
+                {
+                    _search = value;
+                    OnPropertyChanged(nameof(Email));
+                }
+            }
+        }
         public PersonChatViewModel()
         { 
-            GrouChatCommand = new Command(GoToGroupChat);
+            _apiService = new ApiSService();
+            _apiService.Connect();
+            GroupChatCommand = new Command(GoToGroupChat); 
         }
-         
+        public ICommand SearchCommand => new Command<string>(async (string query) => await _apiService.Search(Search,"User"));
+      
+        private async void GoToGroupChat() =>await Shell.Current.GoToAsync($"//{nameof(GroupChats)}");
+    
 
-        private async void GoToGroupChat()
-        {
-            // Переход на страницу 2
-            await Shell.Current.GoToAsync($"//{nameof(GroupChats)}");
-        }
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 }

@@ -3,14 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Chats.Pages.Main.ListChats.PersonChats">
     <VerticalStackLayout Padding="15">
-        <VerticalStackLayout.GestureRecognizers> 
-            <SwipeGestureRecognizer Direction="Left" Command="{Binding GrouChatCommand}"/>
+        <VerticalStackLayout.GestureRecognizers>
+            <SwipeGestureRecognizer Direction="Left" Command="{Binding GroupChatCommand}"/>
         </VerticalStackLayout.GestureRecognizers>
         <Border   BackgroundColor="White">
             <Border.StrokeShape>
                 <RoundRectangle CornerRadius="10" />
             </Border.StrokeShape>
-            <Entry  Placeholder="Поиск" FontSize="20" TextColor="Black"/>
+            <SearchBar   Placeholder="Поиск" FontSize="20" TextColor="Black" Text="{Binding Search}" SearchCommand="{Binding SearchCommand}"/>
         </Border>
       
     </VerticalStackLayout>

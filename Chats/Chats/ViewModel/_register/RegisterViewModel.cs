@@ -14,7 +14,7 @@ namespace Chats.ViewModel
 {
     public class RegisterViewModel : INotifyPropertyChanged
     {
-        private readonly IApiService _apiService;
+        private readonly IApiRService _apiService;
         private string _name;
         private string _surname;
         private string _patronymic;
@@ -87,7 +87,7 @@ namespace Chats.ViewModel
 
         public ICommand RegisterCommand { get; private set; }
 
-        public RegisterViewModel(IApiService apiService)
+        public RegisterViewModel(IApiRService apiService)
         {
             _apiService = apiService;
             RegisterCommand = new Command(async () => await ExecuteRegisterCommand());
@@ -114,9 +114,6 @@ namespace Chats.ViewModel
             else await Application.Current.MainPage.DisplayAlert("Ошибка", "Неверный логин или пароль", "OK");
         }
 
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        protected virtual void OnPropertyChanged(string propertyName)=> PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 }

@@ -1080,3 +1080,13 @@ C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\src\crc64f5844e
 C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\src\crc64f5844edce43316e7\SfRotatorFlingGestureListener.java
 C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\src\crc64f5844edce43316e7\TabStrip.java
 C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\src\crc64f5844edce43316e7\ThumbnailStrip.java
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Features.dll
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\assets\System.IO.Pipelines.dll
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\FragmentManagerExtensions_CallBacks.java

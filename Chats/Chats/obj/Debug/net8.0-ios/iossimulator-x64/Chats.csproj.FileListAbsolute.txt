@@ -315,3 +315,4 @@ C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-ios\iossimulator-x64\Chats.sour
 C:\Application\MAUI\Chats\Chats\bin\Debug\net8.0-ios\iossimulator-x64\Syncfusion.Licensing.dll
 C:\Application\MAUI\Chats\Chats\bin\Debug\net8.0-ios\iossimulator-x64\Syncfusion.Maui.Core.dll
 C:\Application\MAUI\Chats\Chats\bin\Debug\net8.0-ios\iossimulator-x64\Syncfusion.Maui.TabView.dll
+C:\Application\MAUI\Chats\Chats\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
