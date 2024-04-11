@@ -46,8 +46,17 @@ namespace Chats.ViewModel
 
         public LoginViewModel(IApiRService apiService)
         {
+           
             _apiService = apiService;
             LoginCommand = new Command(async () => await ExecuteLoginCommand());
+        }
+        public async Task Seccess()
+        {
+            string authSuccess = await SecureStorage.GetAsync("success");
+            if (authSuccess == "True")
+            {
+                Shell.Current.GoToAsync($"//{nameof(PersonChats)}");
+            }
         }
 
         private async Task ExecuteLoginCommand()

@@ -32,8 +32,8 @@ namespace Chats.ViewModel._groupChat
 
         public GroupChatViewModel()
         {
-            _apiService = new ApiSService();
-            _apiService.Connect();
+           /* _apiService = new ApiSService();
+            _apiService.Connect();*/
             PersonChatCommand = new Command(GoToPersonChat); 
         }
         public ICommand SearchCommand => new Command<string>(async (string query) => await _apiService.Search(Search, "Group"));

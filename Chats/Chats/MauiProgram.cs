@@ -22,6 +22,8 @@ namespace Chats
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 }); 
+
+            builder.Services.AddSingleton<ApiSService>();
             builder.Services.AddSingleton<IApiRService, ApiRService>();
             builder.Services.AddTransient<Login>();
             builder.Services.AddTransient<LoginViewModel>();

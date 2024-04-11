@@ -1,4 +1,5 @@
-﻿using Chats.ViewModel._login;
+﻿using Chats.Model;
+using Chats.ViewModel._login;
 using Chats.ViewModel._register;
 using Microsoft.AspNetCore.SignalR.Client;
 using System;
@@ -13,7 +14,7 @@ namespace Chats.Services
 {
     public class ApiRService : IApiRService
     {
-        private readonly HttpClient _httpClient; 
+        private readonly HttpClient _httpClient;
 
         public ApiRService()
         {
@@ -31,10 +32,11 @@ namespace Chats.Services
                 {
                     var loginResponse = await response.Content.ReadFromJsonAsync<LoginResponse>();
                     if (loginResponse.Success)
-                    {
-                        // Вход успешно выполнен, обработка токена аутентификации и сохранение токена аутентификации в SecureStorage
+                    { 
                         string authToken = loginResponse.Token;
+                        string success = loginResponse.Success.ToString();
                         await SecureStorage.SetAsync("auth_token", authToken);
+                        await SecureStorage.SetAsync("success", success);
                     }
                     else
                     {
@@ -42,7 +44,7 @@ namespace Chats.Services
                     }
                 }
                 return response.IsSuccessStatusCode;
-             }
+            }
             catch (HttpRequestException ex)
             {
                 Debug.WriteLine($"HttpRequestException: {ex.Message}");
@@ -65,7 +67,28 @@ namespace Chats.Services
                     if (registerResponse == true) return response.IsSuccessStatusCode;
                     else return false;
                 }
-                
+
+            }
+            catch (HttpRequestException ex)
+            {
+                Debug.WriteLine($"HttpRequestException: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Exception: {ex.Message}");
+            }
+            return false;
+        }
+        public async Task<bool> ListChatsAsync(ListChat listChat)
+        {
+            try
+            {
+                var response = await _httpClient.PostAsJsonAsync("api/ListChat", listChat);
+                if (response.IsSuccessStatusCode)
+                {
+                   
+                }
+
             }
             catch (HttpRequestException ex)
             {

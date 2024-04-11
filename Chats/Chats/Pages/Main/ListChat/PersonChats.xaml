@@ -10,9 +10,34 @@
             <Border.StrokeShape>
                 <RoundRectangle CornerRadius="10" />
             </Border.StrokeShape>
-            <SearchBar   Placeholder="Поиск" FontSize="20" TextColor="Black" Text="{Binding Search}" SearchCommand="{Binding SearchCommand}"/>
+            <SearchBar Placeholder="Поиск" FontSize="20" TextColor="Black" Text="{Binding Search}" SearchCommand="{Binding SearchCommand}"/>
+            
         </Border>
-      
+        <ListView ItemsSource="{Binding SearchResults}"
+          SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <VerticalStackLayout Padding="10">
+                            <Label Text="{Binding Name}" FontSize="18">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding ItemTappedCommand}" />
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </VerticalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <ListView ItemsSource="{Binding ListChats}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell ImageSource="{Binding Image}"
+                       Text="{Binding Name}"
+                       Detail="{Binding Description}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </VerticalStackLayout>
     
 </ContentPage>

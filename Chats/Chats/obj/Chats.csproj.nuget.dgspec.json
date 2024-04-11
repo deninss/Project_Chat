@@ -74,6 +74,10 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -92,9 +96,9 @@
               "version": "[8.0.3, )",
               "autoReferenced": true
             },
-            "Syncfusion.Maui.TabView": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[25.1.38, )"
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -129,6 +133,10 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -147,9 +155,9 @@
               "version": "[8.0.3, )",
               "autoReferenced": true
             },
-            "Syncfusion.Maui.TabView": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[25.1.38, )"
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -184,6 +192,10 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -202,9 +214,9 @@
               "version": "[8.0.3, )",
               "autoReferenced": true
             },
-            "Syncfusion.Maui.TabView": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[25.1.38, )"
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -240,6 +252,10 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -252,9 +268,9 @@
               "target": "Package",
               "version": "[8.0.14, )"
             },
-            "Syncfusion.Maui.TabView": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[25.1.38, )"
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -298,7 +314,7 @@
         "android-x86": {
           "#import": []
         },
-        "iossimulator-x64": {
+        "ios-arm64": {
           "#import": []
         },
         "maccatalyst-x64": {

@@ -1,4 +1,5 @@
-﻿using Chats.ViewModel._login;
+﻿using Chats.Model;
+using Chats.ViewModel._login;
 using Chats.ViewModel._register;
 using System;
 using System.Collections.Generic;
@@ -13,5 +14,6 @@ namespace Chats.Services
     {
         Task<bool> LoginAsync(LoginModel loginModel);
         Task<bool> RegisterAsync(RegisterModel loginModel);
+        Task<bool> ListChatsAsync(ListChat listChat);
     }
 }

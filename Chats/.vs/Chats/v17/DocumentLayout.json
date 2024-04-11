@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "C:\\Application\\MAUI\\Chats\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\viewmodel\\_personchat\\personchatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\viewmodel\\_personchat\\personchatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\services\\_apisservices\\apisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\services\\_apisservices\\apisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\viewmodel\\_groupchat\\groupchatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\viewmodel\\_groupchat\\groupchatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\viewmodel\\_personchat\\personchatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\viewmodel\\_personchat\\personchatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\viewmodel\\_login\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\viewmodel\\_login\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\services\\_apirservices\\apirservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\services\\_apirservices\\apirservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\pages\\auth\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\pages\\auth\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\pages\\main\\listchat\\personchats.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\pages\\main\\listchat\\personchats.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\pages\\main\\listchat\\personchats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\pages\\main\\listchat\\personchats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\pages\\main\\listchat\\groupchats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\pages\\main\\listchat\\groupchats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\viewmodel\\_register\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\viewmodel\\_register\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|c:\\application\\maui\\chats\\chats\\services\\_apirservices\\apirservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233AAC4B-3BC8-4FAA-97B8-5ACF6CD249A8}|Chats\\Chats.csproj|solutionrelative:chats\\services\\_apirservices\\apirservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,138 +37,85 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "Chats\\MauiProgram.cs",
-              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\MauiProgram.cs",
-              "RelativeToolTip": "Chats\\MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:20:44.982Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GroupChats.xaml",
-              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Main\\ListChat\\GroupChats.xaml",
-              "RelativeDocumentMoniker": "Chats\\Pages\\Main\\ListChat\\GroupChats.xaml",
-              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Main\\ListChat\\GroupChats.xaml",
-              "RelativeToolTip": "Chats\\Pages\\Main\\ListChat\\GroupChats.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-08T19:29:03.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\ViewModel\\_login\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Chats\\ViewModel\\_login\\LoginViewModel.cs",
-              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\ViewModel\\_login\\LoginViewModel.cs",
-              "RelativeToolTip": "Chats\\ViewModel\\_login\\LoginViewModel.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAiwEsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:28:42.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PersonChatViewModel.cs",
-              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\ViewModel\\_personChat\\PersonChatViewModel.cs",
-              "RelativeDocumentMoniker": "Chats\\ViewModel\\_personChat\\PersonChatViewModel.cs",
-              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\ViewModel\\_personChat\\PersonChatViewModel.cs",
-              "RelativeToolTip": "Chats\\ViewModel\\_personChat\\PersonChatViewModel.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAgwBwAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T17:33:56.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GroupChatViewModel.cs",
-              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\ViewModel\\_groupChat\\GroupChatViewModel.cs",
-              "RelativeDocumentMoniker": "Chats\\ViewModel\\_groupChat\\GroupChatViewModel.cs",
-              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\ViewModel\\_groupChat\\GroupChatViewModel.cs",
-              "RelativeToolTip": "Chats\\ViewModel\\_groupChat\\GroupChatViewModel.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAxwCYAAABtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:28:01.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiSService.cs",
-              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\Services\\_apiSServices\\ApiSService.cs",
-              "RelativeDocumentMoniker": "Chats\\Services\\_apiSServices\\ApiSService.cs",
-              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\Services\\_apiSServices\\ApiSService.cs",
-              "RelativeToolTip": "Chats\\Services\\_apiSServices\\ApiSService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAIAwwCQAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T18:32:32.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PersonChats.xaml",
-              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Main\\ListChat\\PersonChats.xaml",
-              "RelativeDocumentMoniker": "Chats\\Pages\\Main\\ListChat\\PersonChats.xaml",
-              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Main\\ListChat\\PersonChats.xaml",
-              "RelativeToolTip": "Chats\\Pages\\Main\\ListChat\\PersonChats.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-08T19:29:04.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Register.xaml",
-              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Auth\\Register.xaml",
-              "RelativeDocumentMoniker": "Chats\\Pages\\Auth\\Register.xaml",
-              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Auth\\Register.xaml",
-              "RelativeToolTip": "Chats\\Pages\\Auth\\Register.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-08T19:31:21.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\ViewModel\\_register\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "Chats\\ViewModel\\_register\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\ViewModel\\_register\\RegisterViewModel.cs",
-              "RelativeToolTip": "Chats\\ViewModel\\_register\\RegisterViewModel.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAUwHQAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:28:27.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "ApiRService.cs",
               "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\Services\\_apiRServices\\ApiRService.cs",
               "RelativeDocumentMoniker": "Chats\\Services\\_apiRServices\\ApiRService.cs",
               "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\Services\\_apiRServices\\ApiRService.cs",
               "RelativeToolTip": "Chats\\Services\\_apiRServices\\ApiRService.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAiwAAAAAAAAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAiwBoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:27:55.396Z",
+              "WhenOpened": "2024-04-11T04:51:05.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\ViewModel\\_login\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Chats\\ViewModel\\_login\\LoginViewModel.cs",
+              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\ViewModel\\_login\\LoginViewModel.cs",
+              "RelativeToolTip": "Chats\\ViewModel\\_login\\LoginViewModel.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAiwEMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T04:50:39.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonChats.xaml.cs",
+              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Main\\ListChat\\PersonChats.xaml.cs",
+              "RelativeDocumentMoniker": "Chats\\Pages\\Main\\ListChat\\PersonChats.xaml.cs",
+              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Main\\ListChat\\PersonChats.xaml.cs",
+              "RelativeToolTip": "Chats\\Pages\\Main\\ListChat\\PersonChats.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T04:31:53.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiSService.cs",
+              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\Services\\_apiSServices\\ApiSService.cs",
+              "RelativeDocumentMoniker": "Chats\\Services\\_apiSServices\\ApiSService.cs",
+              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\Services\\_apiSServices\\ApiSService.cs",
+              "RelativeToolTip": "Chats\\Services\\_apiSServices\\ApiSService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA+wCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T04:24:33.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonChats.xaml",
+              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Main\\ListChat\\PersonChats.xaml",
+              "RelativeDocumentMoniker": "Chats\\Pages\\Main\\ListChat\\PersonChats.xaml",
+              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\Pages\\Main\\ListChat\\PersonChats.xaml",
+              "RelativeToolTip": "Chats\\Pages\\Main\\ListChat\\PersonChats.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-10T15:22:09.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonChatViewModel.cs",
+              "DocumentMoniker": "C:\\Application\\MAUI\\Chats\\Chats\\ViewModel\\_personChat\\PersonChatViewModel.cs",
+              "RelativeDocumentMoniker": "Chats\\ViewModel\\_personChat\\PersonChatViewModel.cs",
+              "ToolTip": "C:\\Application\\MAUI\\Chats\\Chats\\ViewModel\\_personChat\\PersonChatViewModel.cs",
+              "RelativeToolTip": "Chats\\ViewModel\\_personChat\\PersonChatViewModel.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAxwDUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T12:50:43.688Z",
               "EditorCaption": ""
             }
           ]
