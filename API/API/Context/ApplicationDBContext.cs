@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using API.Model;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Context
@@ -9,5 +10,6 @@ namespace API.Context
         {
 
         }
+        public DbSet<Chats> chats { get; set; }
     }
 }

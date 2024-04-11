@@ -21,18 +21,25 @@ namespace API.Services.loginServices
             _signInManager = signInManager;
         }
         public async Task<bool> Login(LoginUser user)
-        {
-            //var result = await _signInManager.PasswordSignInAsync(user.Email, user.Password, user.RememberMe, lockoutOnFailure: false);
-
-            var identityUser = await _userManager.FindByEmailAsync(user.Email);
-            var result = await _signInManager.PasswordSignInAsync(user.Email, user.Password, user.RememberMe, lockoutOnFailure: false);
+        { 
+            var identityUser = await _userManager.FindByEmailAsync(user.Email); 
+            var result = await PasswordSignInAsync(user.Email, user.Password, user.RememberMe, lockoutOnFailure: false);
             if (result.Succeeded)
             {
                 return await _userManager.CheckPasswordAsync(identityUser, user.Password); ;
             }
-
             return false;
-        }   
+        }
+        public async Task<SignInResult> PasswordSignInAsync(string email, string password, bool isPersistent, bool lockoutOnFailure)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                return SignInResult.Failed;
+            }
+
+            return await _signInManager.PasswordSignInAsync(user.UserName, password, isPersistent, lockoutOnFailure);
+        }
         public string GenerateTokenString(LoginUser user)
         {
             var claims = new List<Claim>

@@ -36,7 +36,7 @@ namespace API.Services.registerServices
         public async Task<bool> RegisterUser(RegisterUser user)
         {
             var users = Activator.CreateInstance<_IdentityUsers>();
-            users.UserName = user.Email;
+            users.UserName = user.Name + " " + user.Surname;
             users.Name = user.Name;
             users.Surname = user.Surname;
             users.Patronymic = user.Patronymic;
@@ -46,24 +46,17 @@ namespace API.Services.registerServices
             var result = await _userManager.CreateAsync(users, user.Password);
 
             if (result.Succeeded)
-            {
-                // Log success or other information if needed
+            { 
                 _logger.LogInformation("User created successfully.");
-
-                if (_userManager.Options.SignIn.RequireConfirmedAccount)
-                {
-                    return true;
-                }
+                if (_userManager.Options.SignIn.RequireConfirmedAccount) return true;
                 else
-                {
-                    // Additional logic if account confirmation is not required
+                { 
                     await _signInManager.SignInAsync(users, isPersistent: false);
                     return true;
                 }
             }
             else
-            {
-                // Log errors for debugging
+            { 
                 foreach (var error in result.Errors)
                 {
                     _logger.LogError($"Error in user creation: {error.Code} - {error.Description}");

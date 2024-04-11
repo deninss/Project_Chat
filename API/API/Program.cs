@@ -24,7 +24,11 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetSection("ConnectionStrings:DefaultConnection").Value);
 });
-builder.Services.AddIdentity<_IdentityUsers, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDBContext>()
+builder.Services.AddIdentity<_IdentityUsers, IdentityRole>(options => {
+    options.User.AllowedUserNameCharacters =
+            "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+ ";
+    options.SignIn.RequireConfirmedAccount = true;
+}).AddEntityFrameworkStores<ApplicationDBContext>()
               .AddDefaultTokenProviders();
 
 builder.Services.AddAuthentication(options =>
@@ -50,11 +54,18 @@ builder.Services.AddTransient<IdentityUser, _IdentityUsers>();
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddTransient<IRegisterService, RegisterService>();
 builder.Services.AddTransient<ILoginService, LoginService>();
-builder.Services.AddSingleton<ISearchService, SearchService>();
+builder.Services.AddTransient<ISearchService, SearchService>();
+builder.Services.AddScoped<hubContext>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddLogging(builder =>
+{
+    builder.AddConsole();
+    builder.AddDebug();
+    // Другие провайдеры, если нужно
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -72,5 +83,10 @@ app.MapControllers();
  
 app.UseRouting();
 
-app.MapHub<hubController>("/hubController");
+app.UseEndpoints(endpoints =>
+{
+
+    endpoints.MapControllers();
+    endpoints.MapHub<hubContext>("/hubContext");
+});
 app.Run();
