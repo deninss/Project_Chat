@@ -19,6 +19,7 @@ namespace API.Services.searchServices
         }
         public async Task<IEnumerable<Chats>> SearchGroupAsync(string query)
         {
+
             // Add your search logic here
             return await Task.FromResult(new List<Chats>());
         }

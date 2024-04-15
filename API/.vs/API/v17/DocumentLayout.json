@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Application\\API\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\services\\searchservices\\searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\services\\searchservices\\searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\services\\loginservices\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\services\\loginservices\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\services\\registerservices\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\services\\registerservices\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\services\\addchatservice\\addchatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\services\\addchatservice\\addchatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|solutionrelative:api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77CE72F6-0529-4385-9DC5-6E83913F7892}|API\\API.csproj|c:\\application\\api\\api\\api\\hubcontroller\\hubcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,64 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SearchService.cs",
-              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Services\\searchServices\\SearchService.cs",
-              "RelativeDocumentMoniker": "API\\Services\\searchServices\\SearchService.cs",
-              "ToolTip": "C:\\Application\\API\\API\\API\\Services\\searchServices\\SearchService.cs",
-              "RelativeToolTip": "API\\Services\\searchServices\\SearchService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Application\\API\\API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T05:01:23.746Z",
+              "WhenOpened": "2024-04-14T10:16:05.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Services\\loginServices\\LoginService.cs",
-              "RelativeDocumentMoniker": "API\\Services\\loginServices\\LoginService.cs",
-              "ToolTip": "C:\\Application\\API\\API\\API\\Services\\loginServices\\LoginService.cs",
-              "RelativeToolTip": "API\\Services\\loginServices\\LoginService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA2wBgAAABQAAAA",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Application\\API\\API\\API\\Controller\\AuthController.cs",
+              "RelativeToolTip": "API\\Controller\\AuthController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T04:54:41.969Z",
+              "WhenOpened": "2024-04-14T09:52:35.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RegisterService.cs",
-              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Services\\registerServices\\RegisterService.cs",
-              "RelativeDocumentMoniker": "API\\Services\\registerServices\\RegisterService.cs",
-              "ToolTip": "C:\\Application\\API\\API\\API\\Services\\registerServices\\RegisterService.cs",
-              "RelativeToolTip": "API\\Services\\registerServices\\RegisterService.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAA2wC8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T04:53:38.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddChatService.cs",
-              "DocumentMoniker": "C:\\Application\\API\\API\\API\\Services\\addChatService\\AddChatService.cs",
-              "RelativeDocumentMoniker": "API\\Services\\addChatService\\AddChatService.cs",
-              "ToolTip": "C:\\Application\\API\\API\\API\\Services\\addChatService\\AddChatService.cs",
-              "RelativeToolTip": "API\\Services\\addChatService\\AddChatService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T17:51:29.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "hubContext.cs",
               "DocumentMoniker": "C:\\Application\\API\\API\\API\\HubController\\hubContext.cs",
               "RelativeDocumentMoniker": "API\\HubController\\hubContext.cs",
               "ToolTip": "C:\\Application\\API\\API\\API\\HubController\\hubContext.cs",
               "RelativeToolTip": "API\\HubController\\hubContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA0wCMAAABYAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwB4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T07:36:23.544Z",
               "EditorCaption": ""

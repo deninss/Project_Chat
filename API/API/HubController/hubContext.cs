@@ -2,17 +2,21 @@
 using API.Model;
 using API.Services.addChatService;
 using API.Services.searchServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
 using Newtonsoft.Json;
 using System.IO;
+using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace API.HubController
 {
+    [Authorize]
     public class hubContext : Hub
     {
+
         protected ISearchService _searchService { get; }
         protected IAddChatService _addChatService { get; }
         private readonly ILogger<hubContext> _logger;
@@ -24,6 +28,8 @@ namespace API.HubController
         }
         public async Task SearchUser(string query )
         {
+            var userId = Context.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userName = Context.User.Identity.Name;
             _logger.LogInformation("Поиск пользователя: {Query}", query);
             try
             {
@@ -35,6 +41,7 @@ namespace API.HubController
             {
                 _logger.LogError(ex, "Ошибка при поиске пользователя: {Query}", query); 
             }
+            await base.OnConnectedAsync();
         }
         public async Task SearchGroup(string query)
         { 
@@ -50,6 +57,7 @@ namespace API.HubController
                 _logger.LogError(ex, "Ошибка при поиске пользователя: {Query}", query);
                 // Обработка исключения
             }
+            await base.OnConnectedAsync();
         }
         public async Task AddPersonChat(string idUser1, string idUser2)
         {
