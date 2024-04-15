@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebChat",
+    "\\WebChat\\Areas",
+    "\\WebChat\\Areas\\Identity",
+    "\\WebChat\\Areas\\Identity\\Pages",
+    "\\WebChat\\Areas\\Identity\\Pages\\Account"
+  ],
+  "SelectedNode": "\\WebChat\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+  "PreviewInSolutionExplorer": false
+}

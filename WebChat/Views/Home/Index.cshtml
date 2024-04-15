@@ -1,0 +1,25 @@
+﻿@page
+@model WebChat.Views.Home.IndexModel
+@{
+}
+<link rel="stylesheet" href="~/css/StyleContent.css" asp-append-version="true" />
+<div class="Content">
+    <div class="content-menu">
+        <div class="list-menu">
+            <img class="Icon-menu" src="~/Img/user.svg" />
+            <input type="image" class="Icon-menu" src="~/Img/person-chat_icon.svg" />
+            <input type="image" class="Icon-menu" src="~/Img/group-chat_icon.svg" />
+            <input type="image" class="Icon-menu" src="~/Img/chat-alt-add-1.svg" />
+            <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" method="post">
+                <input type="image" src="~/Img/exit.svg" class="Icon-exit" />
+            </form>
+        </div>
+        <div class="content-list-chat">
+            @await Html.PartialAsync("../ContentListChat/ListChats.cshtml")
+        </div>
+    </div>
+
+    <div class="chat">
+        @await Html.PartialAsync("../Chats/_Chats.cshtml")
+    </div>
+</div>

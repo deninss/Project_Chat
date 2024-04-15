@@ -1,0 +1,13 @@
+﻿
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/css/StyleAuth.css" asp-append-version="true" />
+
+<div class ="conteinet">
+    @RenderBody()
+</div>
+
+@section Scripts {
+    @await RenderSectionAsync("Scripts", required: false)
+}
